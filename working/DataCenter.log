@@ -5,7 +5,7 @@ Output file: DataCenter.bsp
 ---- LoadMapFile ----
           306 faces
            51 brushes
-           41 entities
+           21 entities
             4 unique texnames
            61 texinfo
 
@@ -78,7 +78,7 @@ Wrote DataCenter.bsp
             4 textures          21940
               lightdata             0
               visdata               0
-              entdata            2521
+              entdata            1304
 
-0.198 seconds elapsed
-Peak memory usage: 6014366 (5.7M)
+0.212 seconds elapsed
+Peak memory usage: 6012878 (5.7M)
