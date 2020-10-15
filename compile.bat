@@ -1,29 +1,29 @@
 @echo off
 
 cd\
-cd F:\Quake_TrenchBroom
+cd F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter
 
 
 echo Copying Files...
-copy F:\Quake_TrenchBroom\id1\maps\Zombie_test.map F:\Quake_TrenchBroom
+copy F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\id1\maps\DataCenter.map F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter
 
 
 echo Converting map...
 
 
 echo --------------QBSP--------------
-F:\Quake_TrenchBroom\tools\ericw-tools\bin\qbsp.exe Zombie_test
+F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\tools\ericw-tools\bin\qbsp.exe DataCenter
 
 echo --------------VIS---------------
-F:\Quake_TrenchBroom\tools\ericw-tools\bin\vis.exe Zombie_test
+F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\tools\ericw-tools\bin\vis.exe DataCenter
 
 echo -------------LIGHT--------------
-F:\Quake_TrenchBroom\tools\ericw-tools\bin\light.exe Zombie_test
+F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\tools\ericw-tools\bin\light.exe DataCenter
 
-copy Zombie_test.bsp F:\Quake_TrenchBroom\id1\maps
-copy Zombie_test.pts F:\Quake_TrenchBroom\id1\maps
-copy Zombie_test.lit F:\Quake_TrenchBroom\id1\maps
+copy DataCenter.bsp F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\id1\maps
+copy DataCenter.pts F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\id1\maps
+copy DataCenter.lit F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter\id1\maps
 pause
 cd\
-cd F:\Quake_TrenchBroom
-quakespasm  +map Zombie_test
+cd F:\CCC Fall 2020\Game Design 2\map_DataCenter\map_DataCenter
+quakespasm  +map DataCenter
