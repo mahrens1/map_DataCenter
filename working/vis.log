@@ -11,7 +11,7 @@ Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
 average leafs visible: 30
 c_noclip: 0
-c_chains: 6966
+c_chains: 6916
 visdatasize:275  compressed from 264
 Writing DataCenter.bsp as BSP version 29
-  1.1 seconds elapsed
+  0.1 seconds elapsed

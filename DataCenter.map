@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "F:/map_DataCenter/wads/rogue.wad"
+"wad" "F:/CCC Fall 2020/Game Design 2/map_DataCenter/map_DataCenter/wads/rogue.wad"
 // brush 0
 {
 ( -960 -48 -16 ) ( -960 -47 -16 ) ( -960 -48 -15 ) metal8_4 0 0 0 1 1
@@ -680,9 +680,4 @@
 {
 "classname" "light"
 "origin" "-392 -1736 248"
-}
-// entity 40
-{
-"classname" "info_player_start"
-"origin" "-32 1024 72"
 }

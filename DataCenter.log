@@ -1,0 +1,89 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: DataCenter.map
+Output file: DataCenter.bsp
+
+---- LoadMapFile ----
+*** WARNING 05: No info_player_start entity in level
+          306 faces
+           51 brushes
+           40 entities
+            4 unique texnames
+           61 texinfo
+
+*** WARNING 01: No valid WAD filenames in worldmodel
+Processing hull 0...
+---- Brush_LoadEntity ----
+           51 brushes
+           66 planes
+---- CSGFaces ----
+          306 brushfaces
+          285 csgfaces
+          256 mergedfaces
+---- SolidBSP ----
+          453 split nodes
+          171 solid leafs
+          283 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1969 leaffaces
+         1947 nodefaces
+---- Portalize ----
+          283 vis leafs
+          283 vis clusters
+          681 vis portals
+---- FillOutside ----
+          228 outleafs
+---- MergeAll ----
+          115 mergefaces
+---- SolidBSP ----
+          126 split nodes
+           83 solid leafs
+           44 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          705 leaffaces
+          676 nodefaces
+---- Portalize ----
+           44 vis leafs
+           44 vis clusters
+          109 vis portals
+---- Tjunc ----
+          359 world edges
+         2019 edge points
+          472 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture metal8_4 not found
+*** WARNING 16: Texture metflor1_3 not found
+*** WARNING 16: Texture mmetal1_3 not found
+*** WARNING 16: Texture rome02 not found
+---- WriteBSPFile ----
+Wrote DataCenter.bsp
+          186 planes             3720
+          909 vertexes          10908
+          126 nodes              3024
+           30 texinfo            1200
+          676 faces             13520
+         1260 clipnodes         10080
+           45 leafs              1260
+          705 marksurfaces       1410
+         3174 surfedges         12696
+         1588 edges              6352
+            4 textures             20
+              lightdata             0
+              visdata               0
+              entdata            2505
+
+0.241 seconds elapsed
+Peak memory usage: 5987206 (5.7M)
