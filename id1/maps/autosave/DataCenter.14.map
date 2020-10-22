@@ -1421,21 +1421,21 @@
 // entity 34
 {
 "classname" "path_corner"
-"origin" "712 200 16"
+"origin" "712 376 24"
 "target" "path1"
 "targetname" "path2"
 }
 // entity 35
 {
 "classname" "path_corner"
-"origin" "712 200 200"
+"origin" "712 376 200"
 "target" "path2"
 "targetname" "path1"
 }
 // entity 36
 {
 "classname" "func_train"
-"target" "path3"
+"target" "path3a"
 "dmg" "100"
 "sounds" "0"
 // brush 0
@@ -1451,14 +1451,14 @@
 // entity 37
 {
 "classname" "path_corner"
-"origin" "-952 200 16"
+"origin" "-952 376 24"
 "target" "path3"
 "targetname" "path4"
 }
 // entity 38
 {
 "classname" "path_corner"
-"origin" "-952 200 200"
+"origin" "-952 376 200"
 "target" "path4"
 "targetname" "path3"
 }
@@ -1466,13 +1466,11 @@
 {
 "classname" "light"
 "origin" "-832 376 392"
-"light" "500"
 }
 // entity 40
 {
 "classname" "light"
 "origin" "832 376 392"
-"light" "500"
 }
 // entity 41
 {
@@ -1503,7 +1501,6 @@
 {
 "classname" "light"
 "origin" "0 -416 408"
-"light" "500"
 }
 // entity 47
 {
@@ -2292,14 +2289,14 @@
 // entity 199
 {
 "classname" "light"
-"origin" "-64 728 352"
+"origin" "-64 728 320"
 "angle" "270"
 "light" "400"
 }
 // entity 200
 {
 "classname" "light"
-"origin" "64 728 352"
+"origin" "64 728 320"
 "angle" "270"
 "light" "400"
 }
@@ -2328,7 +2325,6 @@
 {
 "classname" "light"
 "origin" "800 -400 176"
-"light" "500"
 }
 // entity 205
 {
@@ -2373,72 +2369,5 @@
 // entity 213
 {
 "classname" "light"
-"origin" "-800 -392 176"
-"light" "500"
-}
-// entity 214
-{
-"classname" "light"
-"origin" "72 -96 400"
-"light" "700"
-}
-// entity 215
-{
-"classname" "light"
-"origin" "-72 -96 400"
-"light" "700"
-}
-// entity 216
-{
-"classname" "light"
-"origin" "-440 -392 184"
-"light" "a"
-}
-// entity 217
-{
-"classname" "light"
-"origin" "440 -392 184"
-"light" "400"
-}
-// entity 218
-{
-"classname" "light"
-"origin" "-568 328 312"
-"light" "500"
-}
-// entity 219
-{
-"classname" "light"
-"origin" "568 328 312"
-"light" "500"
-}
-// entity 220
-{
-"classname" "light"
-"origin" "576 184 408"
-"light" "500"
-}
-// entity 221
-{
-"classname" "light"
-"origin" "-576 184 408"
-"light" "500"
-}
-// entity 222
-{
-"classname" "light"
-"origin" "0 8 408"
-"light" "800"
-}
-// entity 223
-{
-"classname" "light"
-"origin" "1144 120 408"
-"light" "700"
-}
-// entity 224
-{
-"classname" "light"
-"origin" "-1144 120 408"
-"light" "700"
+"origin" "-824 -392 160"
 }
