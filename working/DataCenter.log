@@ -60,17 +60,16 @@ Processing hull 0...
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote DataCenter.bsp
-          573 planes            11460
+          532 planes            10640
          3419 vertexes          41028
          1037 nodes             24888
           234 texinfo            9360
          2423 faces             48460
-         5184 clipnodes         41472
+         3399 clipnodes         27192
           445 leafs             12460
          2809 marksurfaces       5618
         11744 surfedges         46976
@@ -81,4 +80,4 @@ Wrote DataCenter.bsp
               entdata           12208
 
 0.531 seconds elapsed
-Peak memory usage: 20416234 (19.5M)
+Peak memory usage: 20387322 (19.4M)

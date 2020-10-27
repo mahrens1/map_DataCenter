@@ -3788,24 +3788,24 @@
 // entity 216
 {
 "classname" "light"
-"origin" "0 -832 -56"
+"origin" "0 -832 -80"
 "light" "500"
 }
 // entity 217
 {
 "classname" "light"
-"origin" "0 64 -56"
+"origin" "0 64 -80"
 "light" "500"
 }
 // entity 218
 {
 "classname" "light"
-"origin" "200 688 -40"
+"origin" "200 688 -64"
 "light" "500"
 }
 // entity 219
 {
 "classname" "light"
-"origin" "-24 -1280 -56"
+"origin" "-24 -1280 -80"
 "light" "500"
 }
