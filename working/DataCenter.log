@@ -3,59 +3,59 @@ Input file: DataCenter.map
 Output file: DataCenter.bsp
 
 ---- LoadMapFile ----
-         1758 faces
+         1760 faces
           290 brushes
-          220 entities
+          229 entities
            16 unique texnames
-          357 texinfo
+          360 texinfo
 
 Opened WAD: F:/map_DataCenter/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
           288 brushes
-          279 planes
+          282 planes
 ---- CSGFaces ----
-         1746 brushfaces
-         2086 csgfaces
-         1816 mergedfaces
+         1748 brushfaces
+         2095 csgfaces
+         1822 mergedfaces
 ---- SolidBSP ----
-         3188 split nodes
-         1516 solid leafs
-         1673 empty leafs
+         3201 split nodes
+         1521 solid leafs
+         1681 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6308 leaffaces
-         5930 nodefaces
+         6332 leaffaces
+         5951 nodefaces
 ---- Portalize ----
-         1673 vis leafs
-         1673 vis clusters
-         4358 vis portals
+         1681 vis leafs
+         1681 vis clusters
+         4372 vis portals
 ---- FillOutside ----
-          889 outleafs
+          893 outleafs
 ---- MergeAll ----
-         1220 mergefaces
+         1218 mergefaces
 ---- SolidBSP ----
-         1025 split nodes
+         1024 split nodes
           594 solid leafs
-          432 empty leafs
+          431 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2797 leaffaces
-         2411 nodefaces
+         2791 leaffaces
+         2409 nodefaces
 ---- Portalize ----
-          432 vis leafs
-          432 vis clusters
-         1053 vis portals
+          431 vis leafs
+          431 vis clusters
+         1046 vis portals
 ---- Tjunc ----
-         1966 world edges
-         8509 edge points
-         2111 edges added by tjunctions
+         1960 world edges
+         8490 edge points
+         2108 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -64,20 +64,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote DataCenter.bsp
-          532 planes            10640
-         3419 vertexes          41028
-         1037 nodes             24888
-          234 texinfo            9360
-         2423 faces             48460
-         3399 clipnodes         27192
-          445 leafs             12460
-         2809 marksurfaces       5618
-        11744 surfedges         46976
-         5875 edges             23500
+          529 planes            10580
+         3410 vertexes          40920
+         1036 nodes             24864
+          235 texinfo            9400
+         2421 faces             48420
+         3395 clipnodes         27160
+          444 leafs             12432
+         2803 marksurfaces       5606
+        11722 surfedges         46888
+         5864 edges             23456
            16 textures         115288
               lightdata             0
               visdata               0
-              entdata           12208
+              entdata           12698
 
-0.531 seconds elapsed
-Peak memory usage: 20387322 (19.4M)
+0.831 seconds elapsed
+Peak memory usage: 20420246 (19.5M)

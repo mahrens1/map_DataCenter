@@ -5,30 +5,30 @@ LoadBSPFile: 'DataCenter.bsp'
 BSP is version 29
 --- LoadEntities ---
 WARNING: couldn't parse 'a' as number for key 'light'
-220 entities read, 182 are lights.
+229 entities read, 190 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	2411 solid faces
+	2409 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 182 initial lights
-SetupLights: 182 after surface lights
-SetupLights: 182 after jittering
+SetupLights: 190 initial lights
+SetupLights: 190 after surface lights
+SetupLights: 190 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 182 lights 0 suns in use.
+Final count: 190 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 131084
+lightdatasize: 131424
 0 switchable light styles (32 max)
 Writing DataCenter.bsp as BSP version 29
-0.353 seconds elapsed
+0.302 seconds elapsed
 
 stats:
-4.390943 lights tested, 3.109833 hits per sample point
+4.501140 lights tested, 3.190576 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

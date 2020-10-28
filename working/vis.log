@@ -3,15 +3,15 @@ running with 4 threads
 testlevel = 4
 LoadBSPFile: 'DataCenter.bsp'
 BSP is version 29
-   432 leafs
-  1053 portals
+   431 leafs
+  1046 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 99
+average leafs visible: 98
 c_noclip: 0
-c_chains: 697206
-visdatasize:16412  compressed from 23328
+c_chains: 681829
+visdatasize:16160  compressed from 23274
 Writing DataCenter.bsp as BSP version 29
   0.7 seconds elapsed
